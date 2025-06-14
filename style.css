@@ -1,0 +1,71 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 40px 20px;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+  }
+  
+  h1, h2, h3 {
+    color: #2c3e50;
+    margin-bottom: 10px;
+  }
+  
+  h1 {
+    font-size: 2.4rem;
+  }
+  
+  p {
+    margin-bottom: 16px;
+  }
+  
+  a {
+    color: #3498db;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  .section {
+    margin-bottom: 40px;
+  }
+  
+  .skills, .projects {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .skill, .project {
+    background: #ecf0f1;
+    padding: 10px 16px;
+    border-radius: 8px;
+    font-weight: 500;
+  }
+  
+  .footer {
+    text-align: center;
+    font-size: 0.9rem;
+    margin-top: 60px;
+    color: #777;
+  }
+  
+  
