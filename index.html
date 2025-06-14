@@ -1,77 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Akhilesh Y | Portfolio</title>
-  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-  <style>
-    body {
-      background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
-      color: white;
-    }
-    .glass {
-      background: rgba(255, 255, 255, 0.1);
-      backdrop-filter: blur(12px);
-      border-radius: 1rem;
-      border: 1px solid rgba(255, 255, 255, 0.1);
-    }
-    a {
-      text-decoration: underline;
-    }
-  </style>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
+<body>
+  <div class="container">
+    <h1>Hi, I'm Akhilesh 👋</h1>
+    <p>Welcome to my personal portfolio website.</p>
 
-<body class="font-sans">
-  <header class="text-center py-10">
-    <h1 class="text-4xl font-bold">Akhilesh Y</h1>
-    <p class="text-gray-400 mt-2">AI & ML Enthusiast | BE 2nd Year at Matrusri Engineering College</p>
-  </header>
+    <div class="section">
+      <img 
+        src="https://media.istockphoto.com/id/1494104649/photo/ai-chatbot-artificial-intelligence-digital-concept.jpg" 
+        alt="AI and ML Image"
+        style="max-width: 100%; border-radius: 12px; margin-top: 20px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);"
+      >
+    </div>
 
-  <section class="max-w-4xl mx-auto p-6 glass">
-    <h2 class="text-2xl font-semibold mb-4">About Me</h2>
-    <p>
-      A second-year engineering student exploring the world of AI and machine learning, eager to learn and create intelligent systems.
-    </p>
-  </section>
+    <div class="section">
+      <h2>About Me</h2>
+      <p>I am passionate about Artificial Intelligence, Machine Learning, and building cool stuff with code. I've completed DSA in Python and DBMS using SQL and PL/SQL.</p>
+    </div>
 
-  <section class="max-w-4xl mx-auto p-6 mt-6 glass">
-    <h2 class="text-2xl font-semibold mb-4">Skills</h2>
-    <ul class="list-disc list-inside space-y-1">
-      <li>Python (DSA)</li>
-      <li>SQL & PL/SQL</li>
-      <li>C Programming</li>
-      <li>HTML & CSS</li>
-      <li>Git & GitHub</li>
-    </ul>
-  </section>
-
-  <section class="max-w-4xl mx-auto p-6 mt-6 glass">
-    <h2 class="text-2xl font-semibold mb-4">Projects</h2>
-    <div class="space-y-4">
-      <div>
-        <h3 class="text-xl font-bold">Smart Queue Management (QR-based)</h3>
-        <p>A Tkinter-based Python app with QR code generation and database integration to manage queues efficiently.</p>
-      </div>
-      <div>
-        <h3 class="text-xl font-bold">Student Record System (DBMS)</h3>
-        <p>A database-driven application using SQL/PLSQL to store and manage student data securely.</p>
+    <div class="section">
+      <h2>Skills</h2>
+      <div class="skills">
+        <span class="skill">Python</span>
+        <span class="skill">DSA</span>
+        <span class="skill">SQL</span>
+        <span class="skill">PL/SQL</span>
+        <span class="skill">HTML & CSS</span>
+        <span class="skill">Git</span>
       </div>
     </div>
-  </section>
 
-  <section class="max-w-4xl mx-auto p-6 mt-6 glass">
-    <h2 class="text-2xl font-semibold mb-4">Contact</h2>
-    <p>You can reach me at:</p>
-    <ul class="list-inside list-disc text-blue-400">
-      <li><a href="mailto:akhileshyerram2006@gmail.com">akhileshyerram2006@gmail.com</a></li>
-    </ul>
-  </section>
+    <div class="section">
+      <h2>Projects</h2>
+      <div class="projects">
+        <span class="project">QR Code Queue System</span>
+        <span class="project">Portfolio Website</span>
+        <span class="project">Database Tool with PL/SQL</span>
+      </div>
+    </div>
 
-  <footer class="text-center text-gray-500 text-sm mt-10 py-4">
-    &copy; 2025 Akhilesh Y. All rights reserved.
-  </footer>
+    <div class="section">
+      <h2>Contact</h2>
+      <p>Email: yourname@example.com</p>
+      <!-- GitHub & LinkedIn links can be added later -->
+    </div>
+
+    <div class="footer">
+      <p>© 2025 Akhilesh Y. All rights reserved.</p>
+    </div>
+  </div>
 </body>
-
 </html>
